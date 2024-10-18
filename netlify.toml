@@ -1,0 +1,8 @@
+[build]
+  command = "npm install && npm run start"
+  publish = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/server.js"
+  status = 200
